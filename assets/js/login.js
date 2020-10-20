@@ -46,16 +46,3 @@ $(function() {
         })
     })
 })
-
-// 自定义密码校验规则
-layui.form.verify({
-    pass: [
-        /^[\S]{6,12}$/, '密码必须6到12位，且不能出现空格'
-    ],
-    repass: function(value, item) { //value：表单的值、item：表单的DOM对象
-        var pass = $('.reg-box [name="password"]').val();
-        if (pass !== value) {
-            return '两次密码输入不一致'
-        }
-    }
-});
