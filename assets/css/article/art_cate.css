@@ -1,0 +1,10 @@
+.layui-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#addForm {
+    padding-right: 30px;
+    padding-top: 20px;
+}

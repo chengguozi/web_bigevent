@@ -1,4 +1,5 @@
-body.user {
+body.user,
+body.article {
     padding: 15px;
     background-color: #f2f3f5;
 }
